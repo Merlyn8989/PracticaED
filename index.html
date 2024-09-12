@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial en casa</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th id="boleto">
+                    Boleto
+                </th>
+                <th id="precio">
+                    Precio
+                </th>
+                <th id="estado">
+                    Estado
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="boleto1">
+                </th>
+                <td id="precio1">
+                </td>
+                <td id="estado1">
+                </td>
+            </tr>
+            <tr>
+                <th id="boleto2">
+                </th>
+                <td id="precio2">
+                </td>
+                <td id="estado2">
+                </td>
+            </tr>
+            <tr>
+                <th id="boleto3">
+                </th>
+                <td id="precio3">
+                </td>
+                <td id="estado3">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <p>Nombre: <input type="text" id="nombre"></p>
+    <p>Dui: <input type="text" id="dui"></p>
+    <p>Telefono: <input type="number" id="telefono"></p>
+    <p>Edad: <input type="number" id="edad"></p>
+    <p>Boleto: <input type="text" id="bol"></p>
+    <p>
+        <input type="button" value="Aceptar" onclick="comprarBoleto()">
+        <input type="reset" value="Anular" onclick="anularCompra()">
+    </p>
+
+    <label for="" id="mostrarVenta"></label>
+    <label for="" id="mostrarAnulacion"></label>
+</body>
+<script src="main.js"></script>
+
+</html>
